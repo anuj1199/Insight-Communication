@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">182145349440-1v9ga4r938knhbnaan2al6lhogpvv5rq.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://allahkachamatkar.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">182145349440</string>
+    <string name="google_api_key" translatable="false">AIzaSyCjujF3gmyt7bgOJlE55XqtihG7x97MnUg</string>
+    <string name="google_app_id" translatable="false">1:182145349440:android:2eef820a3c504b7d11aca5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCjujF3gmyt7bgOJlE55XqtihG7x97MnUg</string>
+    <string name="google_storage_bucket" translatable="false">allahkachamatkar.appspot.com</string>
+    <string name="project_id" translatable="false">allahkachamatkar</string>
+</resources>
