@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0EDED"
+    android:paddingLeft="20dp"
+    android:paddingTop="15dp"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="131dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="40dp"
+        android:paddingTop="5sp"
+        android:text="INSIGHT COMMUNICATION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF6666" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="247sp"
+        android:layout_height="166sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="404dp"
+        app:srcCompat="@drawable/contact" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="296dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="Contact-List"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF6666" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="Message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF6666" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="202dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="Phone Call"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF6666" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="255sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="Chatzer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF6666" />
+
+</RelativeLayout>

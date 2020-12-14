@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E1E1"
+    tools:context=".Main5Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="91dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="638dp"
+        app:srcCompat="@drawable/messaging" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="312dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="664dp"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="75dp"
+        android:text="MESSAGE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF6666" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="365dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="578dp"
+        android:digits="1234567890"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#797777" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Enter Message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#B4AFAF"
+        android:textColorHint="#838181" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/ripple2"
+        app:srcCompat="@drawable/send1" />
+
+</RelativeLayout>
